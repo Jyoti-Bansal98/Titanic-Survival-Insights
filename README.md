@@ -40,3 +40,16 @@ Detecting outliers and skewness in numerical data
 
 Women had a much higher survival rate than men.
 Passengers in 1st class survived more often than those in 3rd class.
+
+🧹 Data Preprocessing
+
+Encoding categorical variables (Sex, Embarked)
+Creating new features (e.g., Family Size = SibSp + Parch + 1)
+Scaling numerical values
+Splitting dataset into train/test
+
+Results & Insights
+
+Achieved ~82% accuracy on the test dataset.
+Women and children had significantly higher survival chances.
+Higher ticket class = higher probability of survival.
